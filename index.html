@@ -6,7 +6,7 @@
   <title>COSC101 </title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- videojs cdn -->
   <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
 
@@ -15,6 +15,8 @@
 </head>
 
 <body>
+  <!-- div for video -->
+  <div class = "container-fluid">
   <video id='my-video' class='video-js' controls preload='auto' width='640' height='264'
   poster='MY_VIDEO_POSTER.jpg' data-setup='{}'>
     <source src='MY_VIDEO.mp4' type='video/mp4'>
@@ -24,6 +26,8 @@
       <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
     </p>
   </video>
+    
+  </div>
   
   <!-- all the scripts -->
   <script src='https://vjs.zencdn.net/7.5.4/video.js'></script>
